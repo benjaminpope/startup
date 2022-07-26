@@ -7,10 +7,12 @@ nav:
     - Writing Papers: writing.md
     - Recommended Reading: reading.md
     - Values: values.md
-    - Installing Jax: jax_install.md
 
 theme:
   name: "material"
+  icon:
+    logo: material/telescope 
+
 repo_url: https://github.com/benjaminpope/startup
 plugins:
   - search
