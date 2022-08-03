@@ -24,3 +24,4 @@ Here are some great tutorials:
 - [Get Started with Jax](https://github.com/gordicaleksa/get-started-with-JAX)
 - In the context of Dan Foreman-Mackey's code exoplanet: [link](https://docs.exoplanet.codes/en/latest/tutorials/autodiff/)
 - This great explainer of autodiff by Robert Lange: [link](https://towardsdatascience.com/forward-mode-automatic-differentiation-dual-numbers-8f47351064bf)
+- Awesome explainer by Max Slater: [link](https://thenumb.at/Autodiff/)
