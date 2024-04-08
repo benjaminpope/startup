@@ -26,4 +26,27 @@ plugins:
             docstring_style: "numpy"
           rendering:
             show_source: false
-      custom_templates: templates
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:  # Render LaTeX via MathJax
+      generic: true
+  - pymdownx.snippets:  # Include one Markdown file into another
+      base_path: docs
+  - admonition
+  - toc:
+      permalink: "¤"  # Adds a clickable permalink to each section heading
+      toc_depth: 4
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list # Allows images
+  - md_in_html # Allows images
+  - footnotes
+
+extra_javascript: # Used for MathJax
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
